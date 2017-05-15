@@ -1,0 +1,71 @@
+/**
+ Style.css
+ **/
+
+div#middle{
+	background-color: orange;
+}
+
+div#mainheader {
+	background-color: #ffffff;
+ 	height: 90px;
+ 	width: 100%;
+ 	font-family: 'georgia','Times','times new roman', serif;
+	border-color: #cccccc;
+}
+
+ div#header1 {
+ 	font-size: 35px;
+ 	background-color: #4aaaa5;
+ 	color: #ffffff;
+ 	width: 210px;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	position: absolute;
+ 	top: 10px;
+ 	left: 155px;
+
+ }
+
+ div#content {
+ 	background-color: blue;
+ 	float: left;
+ 	width: 700px;
+ 	height: 500px;
+ 	position: relative;
+ 	left: 180px;
+ 	padding-top: 20px;
+ 	font-family: 'georgia','Times','times new roman', serif;
+	font-size: 30px;
+	border-color: #dddddd;
+ }
+
+ div#entry {
+ 	background-color: yellow;
+ 	position: absolute;
+ 	height: 350px;
+ 	width: 400px;
+ 	right: 350px;
+ 	bottom: 100px;
+
+ 	
+ }
+
+ div#sidebar {
+ 	background-color: purple;
+ 	float: right;
+ 	width: 280px;
+ 	height: 180px;
+ 	margin-left: 70px;
+
+ }
+
+ div#footer {
+ 	background-color: #666666;
+ 	height: 90px;
+ 	position: relative;
+ 	bottom: -500px;
+ 	width: 100%;
+ 	font-size: 10px;
+
+ }

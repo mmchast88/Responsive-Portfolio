@@ -23,13 +23,15 @@ body{
 	border-bottom: 2px solid #ccc;
 	height: 90px;
 
+
 }
 
 .headermenu {	
 	float: right;
 	line-height: 90px;
 	font-family: arial, Helvetica, Helvetica neue, sans-serif;
-	margin-right: 20px;	
+	margin-right: 20px;
+	
 
 }
 
@@ -41,6 +43,8 @@ body{
 	display: inline;
 	border-right: 1px solid #ccc;
 	padding: 0 18px;
+	 
+
 }
 
 .headermenu li a{
@@ -53,6 +57,7 @@ body{
 	color: #777777;
 	
 }
+
 
 .header h1 {
 	font-size: 36px;
@@ -90,7 +95,7 @@ body{
 	width: 650px;
 	padding: 35px 25px;
 	overflow: hidden;
-	margin-left: 127px;
+	margin-left: 140px;
 	margin-right: 100px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -98,6 +103,21 @@ body{
 }
 
 
+
+.maincontent1 {
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid #dddddd;
+	width: 650px;
+	padding: 35px 25px;
+	overflow: hidden;
+	margin-left: 140px;
+	margin-right: 150px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
 .form{
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -106,13 +126,7 @@ body{
 
 }
 
-label {
-	padding: 0px;
-	padding-bottom: 20px;
-	
-}
-
-input[type=text] {
+input[type=text], select{
 	width: 99%;
 	padding: 12px 20px;
 	margin: 7 5 5 12px;
@@ -120,14 +134,10 @@ input[type=text] {
 	border: 1px solid #dddddd;
 	border-radius: 1px;
 	box-sizing: border-box;
-	color: grey;
-	margin-top: 7px;
-	margin-bottom: 7px;
 	
 }
 
-
-input[type=submit] {
+input[type=submit], select{
 	background-color: #4aaaa5;
 	font-size: 18px;
 	text-align: center;
@@ -135,7 +145,6 @@ input[type=submit] {
 	color: white;
 	height: 43px;
 	border: none;
-	
 }
 
 textarea{
@@ -147,8 +156,6 @@ textarea{
 	border-radius: 1px;
 	box-sizing: border-box;
 	height: 200px;
-	margin-top: 7px;
-	margin-bottom: 7px;
 }
 
 .content1 h1 {
@@ -193,7 +200,6 @@ textarea{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid #dddddd;
-	
 }
 
 
@@ -204,7 +210,6 @@ textarea{
 	border-bottom: 2px solid #eee;
 	text-align: center;
 	font-family: "Georgia", "times", "times new roman", serif;
-
 
 }
 
@@ -222,6 +227,7 @@ textarea{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	border: 
 
 }
 
@@ -231,8 +237,6 @@ textarea{
 	text-align: center;
 	height: 80px;
 	border-top: 10px solid #4aaaa5;
-	position: absolute;
-	bottom: 0px;
 }
 
 .footer p{
@@ -276,7 +280,3 @@ textarea{
 	height: 100%;
 	width: 100%;
 }
-
-
-
-
