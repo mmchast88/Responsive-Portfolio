@@ -171,8 +171,8 @@ textarea{
 }
 
 .maincontent img {
-	margin-top: 25px,
-	padding-right:25px;
+	margin-top: 25px;
+	margin-right:25px;
 	float: left;
 
 }
@@ -277,6 +277,209 @@ textarea{
 	width: 100%;
 }
 
+@media screen and (max-width: 980px) {
+.container { 
+	width: 100%;
+	
+}
+
+.maincontent {
+	width: 50%;
+	margin-left: 70px;
+	margin-right: 0px;
+
+}
+
+.header h1 {
+	margin-left: 100px;
+	padding-right: 80px;
+}
+
+.Sidebar {
+	width: 30%;
+	float: right;
+	margin-right: 70px;
+}
+
+#AboutMe {
+	margin-left: 20px;
+}
+
+.maincontent img {
+	width: 100%;
+	height: 280px;
+	padding-bottom: 20px;
+
+}
+
+.picture {
+	margin-bottom: 90px;
+	width: 100%;
+	margin-left: 0px;
+	
+
+}
+.picture h2 {
+	position: absolute;
+	bottom: -70px;
+	width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+.container{ 
+	width: 100%;
+	
+}
+
+.maincontent {
+	width: 93%;
+	margin-left: 0px;	
+
+}
+
+.content {
+	width: 100%;
+	margin-right: 20px;
+
+}
+
+.header {
+	width: 100%;
+	
+}
+
+.header h1 {
+	margin-left: 0px;
+	margin-right: 20px;
+	padding-left: 30px;
+	padding-right: 100px;
+	position: absolute;
+	left: 30px;
+}
+	
+
+.Sidebar {
+	margin-top: 40px;
+	width: 92%;
+	margin-right: 60px;
+	
 
 
+}
 
+.Sidebar h2 {
+	text-align: left;
+}
+
+
+#AboutMe {
+	margin-right: 0px;
+	position: absolute;
+	right: 20px;
+	
+	
+}
+
+.maincontent img {
+	width: 50%;
+	height: 260px;
+	padding-left: 20px;
+	
+}
+
+.content h1 {
+	padding-left: 20px;
+
+}
+.picture {
+	float: left;
+	position: relative;
+	height: 210px;
+	width: 280px;
+	
+
+
+}
+
+.picture h2{
+	position: absolute;
+	width: 93%;
+	bottom: -50px;
+	right: -40px;
+}
+
+
+.picture a img{
+	width: 100%;
+	padding-left: 50px;
+
+
+}
+
+@media screen and (max-width: 640px) {
+.container{ 
+	width: 100%;
+	
+}
+
+.maincontent {
+	width: 90%;
+	margin-left: 0%;
+	padding-right: 35px;
+	padding-left: 25px;
+
+ }
+
+	
+.header h1 {
+	position: static;
+	vertical-align: baseline;
+	width: 100%;
+	text-align: center;
+
+}
+
+
+.maincontent img {
+	width: 95%;
+	height: 300px;
+	margin-right: 30px;
+
+}
+
+#AboutMe {
+	position: relative;
+
+}
+
+.headermenu {
+	float: left;
+	
+	width: 100%;
+}
+
+.headermenu li {
+	margin-left: 70px;
+}
+
+.headermenu a {
+	margin-right: 60px;
+}
+
+.picture {
+	width: 90%;
+	
+}
+
+.picture h2 {
+	width: 96%;
+	position: absolute;
+	left: 40px;
+
+}
+
+.picture img{
+	width: 100%;
+	margin-left: -20px;
+
+}
